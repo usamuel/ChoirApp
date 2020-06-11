@@ -1,0 +1,36 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+body,html{
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.container{
+margin:25vh auto;
+max-width:25vw;
+}
+
+body{
+  /* background-image: url('../images/login-bg.jpg'); */
+  object-fit:cover;
+
+}
+
+section.error{
+  min-width: 20vw;
+  min-height: 5vh;
+  margin: 0;
+  display: none;
+  position:absolute;
+  top:0;
+  left:40vw;
+  padding:5px;
+  color:white;
+}
+
+.login-btn{
+margin-left: 35%;
+}

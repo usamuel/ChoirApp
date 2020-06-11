@@ -1,0 +1,22 @@
+.container{
+    min-width: 90vw;
+    min-height:80vh;
+}
+.navbar-fixed{
+    max-width: 40vw;
+}
+.main-content{
+  margin-bottom:0px;
+
+}
+
+nav{
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+}
+#account_dropdown{
+  min-width:220px !important;
+}
+#account_dropdown > li:hover a{
+  background: linear-gradient(90deg, #00d2ff 0%, #3a47d5 100%);
+color:whitesmoke;
+}
